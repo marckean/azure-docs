@@ -25,7 +25,7 @@ Refer to the [Circuits and routing domains](expressroute-circuit-peerings.md) ar
 You need to reserve a few blocks of IP addresses to configure routing between your network and Microsoft's Enterprise edge (MSEEs) routers. This section provides a list of requirements and describes the rules regarding how these IP addresses must be acquired and used.
 
 ### IP addresses used for Azure private peering
-You can use either private IP addresses or public IP addresses to configure the peerings. The address range used for configuring routes must not overlap with address ranges used to create virtual networks in Azure. 
+You can use either private IP addresses or public IP addresses to configure the peerings. The address range used for configuring routes must not overlap with address ranges used to create virtual networks in Azure. ggg
 
 * IPv4:
     * You must reserve a /29 subnet or two /30 subnets for routing interfaces.
